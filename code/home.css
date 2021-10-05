@@ -1,0 +1,44 @@
+.page.home {
+    height: 75%;
+    transition: 1s ease-in-out height;
+}
+
+.page.home .about {
+    position: fixed;
+    left: 0;
+    top: 19vw;
+    height: 11vw;
+    display: none;
+    animation: show 3s ease;
+    -webkit-animation: show 3s ease;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.page.home .textArea {
+    text-align: center;
+    font-size: 4.5vmin;
+}
+
+.page.home .books {
+    display: none;
+    /* margin-top: 10vw; */
+    height: 16em;
+    min-height: 13em;
+    animation: show 2s ease;
+    -webkit-animation: show 2s ease;
+}
+
+.page.home .textArea {
+    display: none;
+    animation: show 2s ease;
+    -webkit-animation: show 2s ease;
+    margin-top: 6vh;
+}
+
+.page.home .scrolling_icon {
+    margin-top: 7vh;
+    height: 6vmax;
+    cursor: pointer;
+    display: none;
+}

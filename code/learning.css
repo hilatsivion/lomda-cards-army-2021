@@ -1,0 +1,459 @@
+.page.learning.subjects .title {
+  background-image: url(../assets/images/learning/home_header.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgb(28, 63, 85);
+  font-weight: 800;
+  text-align: center;
+  margin-top: 4vw;
+  font-size: 6.5vw;
+  height: 15vw;
+  width: 78vw;
+  padding-top: 9vw;
+  min-height: 11vw;
+  max-height: 11vw;
+  position: relative;
+}
+
+.page.learning.subjects .sub-title {
+  font-size: 5vmin;
+  margin-top: 0.3em;
+  text-align: center;
+}
+
+.page.learning.subjects .cards-container {
+  margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 8em;
+    overflow: auto;
+}
+
+.page.learning.subjects .learningCard {
+  background-image: url("../assets/images/learning/subject_btn.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 12em;
+  width: 17em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4.5vmin;
+}
+
+.page.learning.subjects .icon {
+  width: 2em;
+  position: relative;
+  top: 3em;
+  left: 0.4em;
+}
+
+.page.learning.subjects .subject {
+  color: hsl(203, 50%, 22%);
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 0.17em;
+  width: 10.2em;
+  top: 2.8em;
+  text-align: center;
+  width: 10.8em;
+  font-size: 1.2em;
+}
+
+.page.learning.subjects .learningCard:active {
+  transform: scale(0.95);
+}
+
+.page.learning .gradient {
+  position: fixed;
+  width: 100%;
+  height: 17vw;
+  bottom: 0;
+  background-image: linear-gradient(0deg,
+      rgba(25, 155, 191, 0.432),
+      rgba(255, 255, 255, 0));
+  pointer-events: none;
+  z-index: 1;
+}
+
+.page.learning.subjects .buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 12vw;
+  position: fixed;
+  bottom: 6vw;
+  z-index: 2;
+}
+
+.page.learning.subjects .button {
+  display: flex;
+  justify-content: space-around;
+  height: 11vw;
+  z-index: 2;
+}
+
+.page.learning.subjects .button:active {
+  transform: scale(0.95);
+}
+
+.page.learning.subjects .beforePractice-popup {
+  width: 76vw;
+  height: 120vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(27, 62, 84);
+  position: relative;
+  z-index: 1;
+  background-image: url("../assets/images/practice/beforePractice_popup/beforePractice_popup.svg");
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.page.learning.subjects .practiceBTN-popup {
+  width: 24vw;
+  margin-bottom: 10vw;
+  opacity: 0.2;
+  filter: grayscale(1);
+  pointer-events: none;
+}
+
+.page.learning.subjects .practiceBTN-popup.avalible {
+  opacity: 1;
+  filter: unset;
+  pointer-events: unset;
+}
+
+.page.learning.subjects .subjects-container {
+  width: 71%;
+  display: flex;
+  max-height: 33%;
+  margin-bottom: auto;
+}
+
+.page.learning.subjects .subjects {
+  overflow: auto;
+  width: 100%;
+  padding-right: 0.1em;
+}
+
+.page.learning.subjects .subject-popup {
+  display: flex;
+  align-items: center;
+}
+
+.page.learning.subjects .subject-popup>img {
+  width: 4vw;
+  margin: 4% 0 5% 2%;
+}
+
+.page.learning.subjects .subject-popup>div {
+  font-size: 1em;
+  width: 100%;
+}
+
+.page.learning.subjects .select-everything {
+  display: flex;
+  align-items: center;
+  width: 79%;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.page.learning.subjects .select-everything>img {
+  height: 6vw;
+  margin: 3% 0 3% 2%;
+}
+
+.page.learning.subjects .select-everything>div {
+  width: 100%;
+}
+
+.page.learning.subjects .group-line {
+  height: 90%;
+  width: 0.5vw;
+  background-color: rgba(230, 230, 230, 0.568);
+  margin: 0 0 0 3vw;
+  border-radius: 5vw;
+  transform: translateY(3vw);
+}
+
+/*  עמוד למידת הנושאים עצמם  */
+.page.learning.content {
+  scroll-snap-type: y mandatory;
+  scroll-snap-type: mandatory;
+}
+
+.page.learning.content>.title {
+  background-image: url(../assets/images/learning/home_header.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgb(28, 63, 85);
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 6.5vw;
+  height: 15vw;
+  width: 78vw;
+  padding-top: 9vw;
+  min-height: 11vw;
+  max-height: 11vw;
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.page.learning.content .container-subjects {
+  display: flex;
+  width: 100vw;
+  white-space: nowrap;
+  overflow: scroll;
+  box-sizing: border-box;
+  scroll-snap-type: x mandatory;
+  scroll-snap-type: mandatory;
+  -webkit-scroll-snap-type: mandatory;
+  scroll-snap-destination: 0 0;
+  scroll-snap-points-y: repeat(100vh);
+  -webkit-scroll-snap-points-y: repeat(100vh);
+  min-height: min-content;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  scroll-behavior: smooth;
+  margin-top: -1vh;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.page.learning.content .container-subjects::-webkit-scrollbar {
+  display: none;
+}
+
+/* זה בשביל התת כותרות מתחת לכותרת */
+.page.learning.content .sub-title {
+  font-size: 1.2em;
+}
+
+.page.learning.content .sub-topic {
+  display: flex;
+  margin-bottom: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.page.learning.content .container-subjects .arrow {
+  width: .35em;
+  margin-left: 1.5vw;
+  transition: transform 0.1s ease-in-out;
+}
+
+.page.learning.content .container-subjects>:last-child::after {
+  width: 50vw;
+  display: block;
+}
+
+.page.learning.content .sub-topics-container {
+  padding: 1em 0.2em;
+  white-space: nowrap;
+  scroll-snap-align: center;
+  max-height: 1em;
+  min-width: min-content;
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  transition: max-height .25s ease-in-out;
+  overflow: hidden;
+  text-align: center;
+}
+
+.page.learning.content .sub-topics-container.open {
+  max-height: 100vh;
+}
+/* 
+.page.learning.content .container-subjects::before {
+  display: block;
+  content: "";
+  padding-left: 50vw;
+} */
+
+.page.learning.content .container-subjects .space {
+  display: block;
+  margin-right: 35vw;
+} 
+
+
+.page.learning.content .container-subjects::after {
+  display: block;
+  content: "";
+  padding-right: 32vw;
+}
+
+.page.learning.content .practice-btn {
+  width: 40vw;
+  position: absolute;
+  bottom: 4vw;
+  z-index: 1;
+  position: fixed;
+  box-shadow: 0px -11px 20px -15px  rgba(25, 155, 191, 0.432);
+}
+
+.page.learning.content .open .arrow {
+  transform: rotate(-90deg);
+}
+
+.page.learning.content .card-container {
+  align-items: center;
+  border-radius: 5vw 5vw 0 0;
+  flex: 1;
+  overflow: auto;
+  padding-top: 10vw;
+  padding-bottom: 30vw;
+  margin-bottom: 5vw;
+}
+
+.page.learning.content .card {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-image: url("../assets/images/learning/learning.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-width: unset;
+  width: 100%;
+  color: black;
+  align-items: flex-start;
+  line-height: 1.4em;
+  padding-top: 3.1em;
+  box-sizing: border-box;
+  scroll-snap-align: center;
+  transition: 0.4s ease-in-out;
+  transition-property: opacity, transform;
+}
+
+.page.learning.content .content-container {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0.5em 2em 1em 3em;
+  box-sizing: border-box;
+  border-radius: 3vw;
+  flex: 1;
+}
+
+.page.learning.content .card .title {
+  color: rgb(28, 63, 85);
+  font-weight: 800;
+  font-size: 1.4em;
+  text-align: right;
+  margin-bottom: 0.5em;
+}
+
+.page.learning.content .card .pic {
+  border-radius: 3.5vw;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+.page.learning.content .two-pics.card .pic {
+  border-radius: 3.5vw;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+/* זה בשביל התת כותרות שנמצאות בתוך הכרטיסיות למידה */
+.page.learning.content .card .sub-title {
+  font-size: 1.1em;
+  color: rgb(28, 63, 85);
+  font-weight: 800;
+}
+
+.page.learning.content .card video {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.page.learning.content .cards-container {
+  padding-bottom: 15vh;
+  overflow: auto;
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: start;
+  flex: 1;
+}
+
+.page.learning.content .list {
+  padding-right: 1em;
+}
+
+.page.learning.content .content {
+  margin-bottom: 1em;
+  text-align: right;
+}
+
+.page.learning.content .card-group {
+  display: none;
+  position: relative;
+  height: 80vh;
+  width: 54vh;
+  max-height: 113vw;
+  max-width: 83vw;
+  margin-right: 50%;
+  transform: translate(50%);
+  margin-bottom: 1rem;
+}
+
+.page.learning.content .card.next {
+  transform: rotateZ(4deg);
+  opacity: 0.5;
+}
+
+.page.learning.content .next-back-btn {
+  display: flex;
+  justify-self: flex-end;
+  height: 8vw;
+  direction: ltr;
+  width: 93%;
+  margin-bottom: 1vh;
+}
+
+.page.learning.content .next-back-btn>img {
+  height: 100%;
+  margin: 0 0.4em;
+}
+
+.page.learning.content .next-back-btn.first .back {
+  visibility: hidden;
+  pointer-events: none;
+}
+/* transform: translateX(-140%); */
+
+.page.learning.content .next-back-btn.last .next {
+  visibility: hidden;
+  pointer-events: none;
+}
+.page.learning.content .next-back-btn.last .back {
+  transform: translateX(-140%);
+}
+
+.page.learning.content .card.prev {
+  transform: translateX(100vw);
+}
+
+.page.learning.content .block {
+  display: block;
+}
+
+.page.learning.content .sub-sub-topic{
+  min-width: 10em;
+  margin-bottom: 0.6em;
+  overflow: initial;
+  display: flex;
+  justify-content: center;
+  white-space: normal;
+}

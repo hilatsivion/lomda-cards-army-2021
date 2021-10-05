@@ -1,0 +1,444 @@
+@font-face {
+  font-family: Rubik;
+  src: url("../assets/fonts/Rubik/Rubik-Regular.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("../assets/fonts/Rubik/Rubik-Bold.ttf");
+  font-weight: 800;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik";
+  direction: rtl;
+  color: white;
+  background-image: url("../assets/images/general/bg.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  /* overflow: auto; */
+}
+
+.page {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  scroll-snap-align: start end;
+  -webkit-scroll-snap-coordinate: 0 0;
+
+  /* scroll-behavior: smooth; */
+  overflow: hidden;
+}
+
+.full-screen {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100vw;
+}
+
+.page:not(.active) {
+  display: none;
+}
+
+.page .back-btn {
+  width: 7vw;
+  right: 2vw;
+  top: 2vw;
+  position: fixed;
+}
+
+.page .back-btn:active {
+  transform: scale(0.95);
+}
+
+/* איקס סגירה להודעות קופצות */
+.close-btn {
+  position: absolute;
+  height: 4vw;
+  right: 1em;
+  top: 2.2em;
+}
+
+/*פופאפ לסוף התרגול והמבחן*/
+.page .dark {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.411);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page .end-exam {
+  color: rgb(27, 62, 84);
+  width: 72vw;
+  height: 114vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-image: url("../assets/images/practice/finishPractice_popup.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page .title-popup {
+  font-weight: 800;
+  font-size: 7vmin;
+  margin-top: 2em;
+  margin-bottom: 2vw;
+  width: 10em;
+  text-align: center;
+}
+
+.page.exam .exit-popup .title-popup {
+  margin-top: 2.5em;
+}
+
+.page.exam .end-exam .title-popup {
+  font-size: 6vmin;
+}
+
+.page.exam .title-popup {
+   height: 1.6em;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   border-radius: 1em;
+   width: 8.5em;
+   padding-top: 0.3em;
+}
+
+.page.exam .end-exam .title-popup {
+   background-image: url("../assets/images/exam/name_bg.svg");
+}
+
+.page .popup-sub-titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;    
+  height: 3em;
+  justify-content: space-around;
+}
+
+.page .text1-popup {
+  font-weight: 800;
+  font-size: 1em;
+}
+
+.page .text2-popup {
+  font-size: 1em;
+}
+
+.page .grey-line {
+  background-color: rgb(233, 232, 232);
+  width: 100%;
+  height: 0.3vmin;
+}
+
+.page .backToHome-btn {
+  height: 10vmin;
+  margin-bottom: 15%;
+}
+
+.page .container-resultes {
+  width: 100%;
+  color: rgb(188, 188, 188);
+  font-size: 1em;
+}
+
+.page .titleAndIcon-container {
+  font-weight: 800;
+  font-size: 6vmin;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(28, 63, 85);
+  margin-bottom: 1%;
+  align-items: center;
+}
+
+.page .checkIcon-btn {
+  height: 4.5vmin;
+}
+
+.page .timeIcon-btn {
+  height: 7vmin;
+}
+
+.page .progress-bar-container {
+  width: 100%;
+  height: 2vmin;
+  border-radius: 2rem;
+  margin-top: 4%;
+  background-color: hsl(0, 0%, 94%);
+}
+
+.page .progress-bar-right-answers,
+.page .progress-bar-time {
+  background-color: rgb(43, 232, 247);
+  height: 2vmin;
+  border-radius: 2rem;
+  width: 0%;
+  margin-top: 4%;
+}
+
+/* כרטיסיות למבחן ולתרגול */
+/* .page .card,
+.page .buttons {
+  max-width: 87vw;
+} */
+
+.page .card>img {
+  width: 100%;
+}
+
+.page.exam .question-text {
+  position: absolute;
+  height: 66%;
+  width: 82%;
+  right: 8%;
+  top: 17%;
+  color: rgb(28, 63, 85);
+  font-size: 4.3vmin;
+}
+
+.page.practice .question-text {
+  position: absolute;
+  height: 66%;
+  width: 82%;
+  right: 8%;
+  top: 17%;
+  color: rgb(28, 63, 85);
+  font-size: 4.2vmin;
+}
+
+.page .question {
+  font-weight: 800;
+  font-size: 1.3em;
+}
+
+.page .right-ans,
+.page .wrong-ans {
+  height: 10vmin;
+  margin: 10% 0% 0% 10%;
+  cursor: pointer;
+}
+
+.page .ans-container {
+  display: flex;
+}
+
+.page .binary .line+.ans-container,
+.page .line+.ans-container {
+  margin-top: -0.6em;
+}
+
+.page .binary .line,
+.page .line {
+  margin-top: 0.4em;
+  height: 0.2em;
+  display: block;
+  transform-origin: right;
+  animation: line-expand 0.25s ease-in-out;
+  width: 53vmin;
+}
+
+/*לפני המבחן*/
+.page .exam-popup {
+  color: rgb(27, 62, 84);
+  width: 18em;
+  height: 32em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-image: url("../assets/images/exam/beforeExam_popup/beforeExam_popup.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page .instruction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.page .text {
+  font-size: 4vmin;
+}
+
+.page .exam-popup .text {
+  text-align: right;
+}
+
+
+.page .icon1 {
+  width: 7vw;
+}
+
+.page .icon3,
+.page .icon2 {
+  width: 6vw;
+}
+
+.page .icon4 {
+  width: 8vw;
+}
+
+.page .icon5 {
+  width: 11vw;
+}
+
+.page .instructions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 21em;
+  width: 13em;
+}
+
+.page .start-btn {
+  width: 28vw;
+  margin-bottom: 2em;
+  margin-top: 0.5em;
+}
+
+.page .start-btn.insert-name {
+  filter: grayscale(100%) brightness(71%);
+  opacity: 0.3;
+  pointer-events: none;
+  transition: filter 0.5s ease-in-out;
+}
+
+.page .start-btn.insert-name.done {
+  filter: grayscale(0%);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.page .text-fill-name {
+  text-align: center;
+
+}
+.page .exam-popup-insert-name {
+  transition: all 0.4s ease-in-out;
+  height: 22em;
+  width: 16em;
+} 
+.page .input-text {
+  width: 11em;
+  height: 1.8em;
+  text-align: center;
+  font-family: Rubik;
+  border-radius: 8px;
+  font-size: inherit;
+  margin-top: -1em;
+}
+.page .instructions.insert-name{
+  align-items: center;
+  height: 10em;
+}
+
+/* יציאה ממבחן או תרגול פופאפ */
+.page .exit-popup {
+  color: rgb(27, 62, 84);
+  width: 78vw;
+  height: 65vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-image: url("../assets/images/general/leavePracticeOrExam_popup/leavePracticeOrExam_popup.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page .buttons-exit-popup {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15%;
+  width: 65%;
+}
+
+.page .button-popup {
+  width: 23vw;
+}
+
+/* פוופאפ מעבר לתרגול בתוך עמוד הלמידה רק על נושא אחד */
+.page .before-practice-one-sub {
+  color: rgb(27, 62, 84);
+  width: 72vw;
+  height: 94.5vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-image: url("../assets/images/learning/choosePractice_popup/choosePractice_popup.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page .instructions-practice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 49%;
+  width: 69%;
+}
+
+.page .instruction-practice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/*  */
+.page .beforePractice-instruction-container {
+  display: flex;
+  justify-content: space-between;
+  width: 69%;
+  margin: 6vw 0;
+  box-sizing: border-box;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.page .beforePractice-instruction-container>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.italic {
+  font-style: italic;
+}

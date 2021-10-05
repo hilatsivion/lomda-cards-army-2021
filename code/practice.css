@@ -1,0 +1,257 @@
+.page.practice .title {
+  width: 8em;
+  max-width: 9em;
+  margin-top: 1em;
+}
+
+.page.practice .score {
+  width: 11em;
+  max-width: 11em;
+  margin-top: 1em;
+  background-image: url(../assets/images/practice/questionLog.svg);
+  background-repeat: no-repeat;
+  height: 2em;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page.practice .right-answers,
+.page.practice .sum-answers {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  font-size: 0.8em;
+}
+
+.page.practice .points {
+  font-weight: 800;
+}
+
+.page.practice .points,
+.page.practice .points-text {
+  margin: 3%;
+}
+
+.page.practice .card {
+  position: absolute;
+}
+
+.page.practice .card.transition {
+  z-index: 3;
+}
+
+.page.practice .second-question,
+.page.practice .third-question {
+  transform: rotate(4deg) translate(1%, 3%);
+}
+
+.page.practice .first-question {
+  z-index: 2;
+  position: unset;
+}
+
+.page.practice .second-question {
+  z-index: 1;
+}
+
+.page.practice .third-question {
+  z-index: 0;
+}
+
+.page.practice .container-questions {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+  position: relative;
+  font-size: 4.5vmin;
+  max-width: 87vmin;
+}
+
+.page.practice .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 67vw;
+}
+
+.page.practice .btn {
+  width: 45%;
+  cursor: pointer;
+}
+
+.page.practice .answer-container {
+  display: flex;
+  margin-top: 2vh;
+  align-items: center;
+}
+
+.page.practice .first-question .answer-container {
+  z-index: 2;
+}
+
+.page.practice .answer-container>img {
+  height: 1.7vh;
+  margin-left: 2%;
+  pointer-events: none;
+  padding-bottom: 3%;
+
+}
+
+.page.practice .answer-container>.ans {
+  pointer-events: none;
+  display: inline;
+  padding-bottom: 3%;
+}
+
+.page.practice .timer {
+  background-image: url("../assets/images/practice/timer.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 1.5em;
+  width: 4em;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 2em;
+  right: 1em;
+}
+
+.page.practice .timeLeft {
+  margin-right: 10%;
+  font-weight: 800;
+  font-size: 3.5vw;
+}
+
+.page.practice .next-btn {
+  display: flex;
+  justify-self: flex-end;
+  height: 4vmax;
+  direction: ltr;
+  position: relative;
+  bottom: 8vmax;
+  right: 3vmax;
+  width: 34vmax;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page.practice .next-btn>img {
+  opacity: 0.4;
+  height: 100%;
+}
+
+/*      */
+/*      */
+/*      */
+/* popup*/
+
+.page.practice .end-practice {
+  color: rgb(27, 62, 84);
+  width: 72vw;
+  height: 127vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-image: url("../assets/images/practice/finishPractice_popup.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page.practice .title-popup {
+  font-weight: 800;
+  font-size: 8vmin;
+  margin-top: 18%;
+}
+
+.page.practice .popup-sub-titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.page.practice .text1-popup {
+  font-weight: 800;
+  font-size: 4.5vmin;
+}
+
+.page.practice .text2-popup {
+  font-size: 4.5vmin;
+}
+
+.page.practice .grey-line {
+  background-color: rgb(233, 232, 232);
+  width: 75%;
+  height: 0.3vmin;
+}
+
+.page.practice .backToHome-btn {
+  height: 10vmin;
+  margin-bottom: 15%;
+}
+
+/*  */
+/*  */
+.page.practice .container-resultes {
+  width: 75%;
+  color: rgb(188, 188, 188);
+  font-size: 3.5vmin;
+}
+
+.page.practice .titleAndIcon-container {
+  font-weight: 800;
+  font-size: 6vmin;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(28, 63, 85);
+  margin-bottom: 1%;
+  align-items: center;
+}
+
+.page.practice .checkIcon-btn {
+  height: 4.5vmin;
+}
+
+.page.practice .timeIcon-btn {
+  height: 7vmin;
+}
+
+.page.practice .progress-bar-container {
+  width: 100%;
+  height: 2vmin;
+  border-radius: 2rem;
+  margin-top: 4%;
+  background-color: hsl(0, 0%, 94%);
+}
+
+.page.practice .progress-bar-right-answers,
+.page.practice .progress-bar-time {
+  background-color: rgb(43, 232, 247);
+  height: 2vmin;
+  border-radius: 2rem;
+  width: 0%;
+  margin-top: 4%;
+}
+
+.page.practice .curr-question{
+  display: flex;
+  font-weight: 500; 
+  color: rgb(28, 63, 85);
+  font-size: 0.9em;
+}
+@keyframes line-expand {
+  0% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
