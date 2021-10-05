@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.944" height="34.339" viewBox="0 0 43.944 34.339">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2be8f7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="cheack_icon" transform="translate(4.243 4.243)">
+    <g id="Group_365" data-name="Group 365" transform="translate(0 0)">
+      <path id="Path_474" data-name="Path 474" class="cls-1" d="M37.459,2l-27.1,27.1L2,20.733" transform="translate(-2 -2)"/>
+    </g>
+  </g>
+</svg>

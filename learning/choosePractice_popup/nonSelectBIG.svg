@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #dbdbdb;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_61" data-name="Rectangle 61" class="cls-1" width="40" height="40" rx="12" transform="translate(2.5 2.5)"/>
+</svg>

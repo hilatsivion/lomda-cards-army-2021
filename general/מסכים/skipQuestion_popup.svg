@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-skipQuestion_popup);
+      }
+
+      .cls-11, .cls-15, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #708fa0;
+      }
+
+      .cls-11, .cls-2, .cls-7, .cls-9 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-11, .cls-2, .cls-4 {
+        stroke-width: 8px;
+      }
+
+      .cls-10, .cls-13, .cls-3, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: #b3b3b3;
+      }
+
+      .cls-5, .cls-6, .cls-8 {
+        fill: #1c3f55;
+      }
+
+      .cls-5 {
+        font-size: 66px;
+      }
+
+      .cls-10, .cls-5, .cls-8 {
+        font-family: Rubik-Bold, Rubik;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        font-size: 41px;
+        font-family: Rubik-Regular, Rubik;
+      }
+
+      .cls-7 {
+        stroke: #dbdbdb;
+      }
+
+      .cls-7, .cls-9 {
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-10, .cls-8 {
+        font-size: 37px;
+      }
+
+      .cls-9 {
+        fill: #2be8f7;
+        stroke: #2be8f7;
+      }
+
+      .cls-11 {
+        stroke: #1c3f55;
+      }
+
+      .cls-12 {
+        opacity: 0;
+      }
+
+      .cls-13 {
+        stroke: #707070;
+      }
+
+      .cls-14 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-skipQuestion_popup">
+      <rect width="1080" height="1920"/>
+    </clipPath>
+  </defs>
+  <g id="skipQuestion_popup" class="cls-1">
+    <rect id="Rectangle_36" data-name="Rectangle 36" width="1080" height="1920"/>
+    <g id="Group_321" data-name="Group 321" transform="translate(0 93)">
+      <g id="Group_303" data-name="Group 303" transform="translate(156.707 377.956)">
+        <line id="Line_103" data-name="Line 103" class="cls-2" x2="7.729" y2="30.876" transform="translate(143.563 38.421)"/>
+        <path id="Path_459" data-name="Path 459" class="cls-2" d="M-2320.259-1098.426l1.83,7.309a9.524,9.524,0,0,1-6.926,11.552h0a9.524,9.524,0,0,1-11.551-6.926l-1.83-7.309-9.031-36.077" transform="translate(2470.558 1163.757)"/>
+        <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-3" width="767.274" height="542.123" rx="37.326" transform="translate(0 48.921)"/>
+        <path id="Path_460" data-name="Path 460" class="cls-4" d="M-2328.244-1161.541" transform="translate(2487.13 1161.541)"/>
+        <g id="Group_302" data-name="Group 302" transform="translate(103.578 0.076)">
+          <path id="Path_461" data-name="Path 461" class="cls-2" d="M-2355.848-1091.555l-14.42-57.605a17.065,17.065,0,0,1,12.41-20.7h0a17.065,17.065,0,0,1,20.7,12.41l6.363,25.42" transform="translate(2370.783 1170.371)"/>
+          <path id="Path_462" data-name="Path 462" class="cls-2" d="M-2363.374-1117.828l13.548,54.12a24.006,24.006,0,0,0,29.116,17.458h0a24.006,24.006,0,0,0,17.457-29.116l-6.28-24.317" transform="translate(2369.559 1161.69)"/>
+        </g>
+      </g>
+      <text id="אופס_" data-name="אופס!" class="cls-5" transform="translate(540 584)"><tspan x="-81.246" y="0">אופס!</tspan></text>
+      <text id="לא_ענית_על_ההשאלה_לחזור_" data-name="לא ענית על ההשאלה… לחזור?" class="cls-6" transform="translate(540 663)"><tspan x="-248.706" y="0">לא ענית על ההשאלה… לחזור?</tspan></text>
+      <g id="Group_362" data-name="Group 362" transform="translate(330.507 771.267)">
+        <g id="Group_503" data-name="Group 503" transform="translate(-60.567 0)">
+          <rect id="Rectangle_48" data-name="Rectangle 48" class="cls-7" width="264" height="95.733" rx="23" transform="translate(-22)"/>
+          <text id="שאלה_הבאה" data-name="שאלה הבאה" class="cls-8" transform="translate(208.06 60.733)"><tspan x="-195.619" y="0">שאלה הבאה</tspan></text>
+        </g>
+        <g id="Group_532" data-name="Group 532" transform="translate(237.57 0)">
+          <rect id="Rectangle_76" data-name="Rectangle 76" class="cls-9" width="264" height="95.733" rx="23" transform="translate(-0.137)"/>
+          <text id="תחזור_תחזור" data-name="תחזור תחזור" class="cls-10" transform="translate(232.923 60.733)"><tspan x="-201.613" y="0">תחזור תחזור</tspan></text>
+        </g>
+      </g>
+      <g id="Group_470" data-name="Group 470" transform="translate(6 9)">
+        <g id="Group_440" data-name="Group 440" transform="translate(635.21 575.488)">
+          <g id="Group_372" data-name="Group 372" transform="translate(210.043 -107.993) rotate(45)">
+            <path id="Path_490" data-name="Path 490" class="cls-11" d="M121.982,53.864H79.814" transform="translate(-79.814 -37.08)"/>
+          </g>
+          <g id="Group_468" data-name="Group 468" transform="translate(210.043 -107.993) rotate(45)">
+            <path id="Path_490-2" data-name="Path 490" class="cls-11" d="M121.982,53.864H79.814" transform="translate(-79.814 -37.08)"/>
+          </g>
+        </g>
+        <g id="Group_469" data-name="Group 469" transform="translate(767.078 281.188) rotate(90)">
+          <g id="Group_372-2" data-name="Group 372" transform="translate(210.043 -107.993) rotate(45)">
+            <path id="Path_490-3" data-name="Path 490" class="cls-11" d="M121.982,53.864H79.814" transform="translate(-79.814 -37.08)"/>
+          </g>
+          <g id="Group_468-2" data-name="Group 468" transform="translate(210.043 -107.993) rotate(45)">
+            <path id="Path_490-4" data-name="Path 490" class="cls-11" d="M121.982,53.864H79.814" transform="translate(-79.814 -37.08)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_523" data-name="Group 523" class="cls-12">
+      <g id="Rectangle_77" data-name="Rectangle 77" class="cls-13">
+        <rect class="cls-14" width="157" height="1920"/>
+        <rect class="cls-15" x="0.5" y="0.5" width="156" height="1919"/>
+      </g>
+      <g id="Rectangle_78" data-name="Rectangle 78" class="cls-13" transform="translate(923)">
+        <rect class="cls-14" width="157" height="1920"/>
+        <rect class="cls-15" x="0.5" y="0.5" width="156" height="1919"/>
+      </g>
+      <g id="Rectangle_79" data-name="Rectangle 79" class="cls-13" transform="translate(157)">
+        <rect class="cls-14" width="824" height="527"/>
+        <rect class="cls-15" x="0.5" y="0.5" width="823" height="526"/>
+      </g>
+      <g id="Rectangle_80" data-name="Rectangle 80" class="cls-13" transform="translate(157 1069)">
+        <rect class="cls-14" width="824" height="851"/>
+        <rect class="cls-15" x="0.5" y="0.5" width="823" height="850"/>
+      </g>
+    </g>
+  </g>
+</svg>

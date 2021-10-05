@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.884" height="112.247" viewBox="0 0 70.884 112.247">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+        stroke: #2be8f7;
+      }
+
+      .cls-1 {
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-linecap: round;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #2be8f7;
+      }
+    </style>
+  </defs>
+  <g id="Group_550" data-name="Group 550" transform="matrix(0.966, 0.259, -0.259, 0.966, -577.262, -698.691)">
+    <g id="Group_488" data-name="Group 488" transform="translate(767.998 516.731)">
+      <rect id="Rectangle_51" data-name="Rectangle 51" class="cls-1" width="37.487" height="52.717" rx="4.041" transform="translate(0 49.829)"/>
+      <path id="Path_507" data-name="Path 507" class="cls-2" d="M498.368,846.628l4.857-9.286-7.985-4.612,4.358-8.836" transform="translate(-473.602 -797.666)"/>
+      <circle id="Ellipse_18" data-name="Ellipse 18" class="cls-3" cx="5.676" cy="5.676" r="5.676" transform="translate(21.886 17.343)"/>
+      <g id="Group_487" data-name="Group 487" transform="translate(18.352)">
+        <path id="Path_508" data-name="Path 508" class="cls-2" d="M-2641.125-1447.487a19.647,19.647,0,0,1,18.291,0" transform="translate(2641.125 1449.746)"/>
+        <path id="Path_509" data-name="Path 509" class="cls-2" d="M-2607.848-1380.318a9.653,9.653,0,0,1,8.986,0" transform="translate(2612.5 1390.979)"/>
+      </g>
+    </g>
+    <path id="Path_510" data-name="Path 510" class="cls-4" d="M776.523,609.37H792.8" transform="translate(2.512 -30.139)"/>
+  </g>
+</svg>

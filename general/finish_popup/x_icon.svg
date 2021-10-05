@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.507" height="35.507" viewBox="0 0 35.507 35.507">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2be8f7;
+        stroke-linecap: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Group_530" data-name="Group 530" transform="translate(-829.143 -475.12)">
+    <g id="Group_440" data-name="Group 440" transform="translate(833.386 479.363)">
+      <g id="Group_372" data-name="Group 372" transform="translate(0 0) rotate(45)">
+        <path id="Path_490" data-name="Path 490" class="cls-1" d="M38.214,0H0" transform="translate(0 0)"/>
+      </g>
+      <g id="Group_468" data-name="Group 468" transform="translate(0 0) rotate(45)">
+        <path id="Path_490-2" data-name="Path 490" class="cls-1" d="M38.214,0H0" transform="translate(0 0)"/>
+      </g>
+    </g>
+    <g id="Group_469" data-name="Group 469" transform="translate(860.407 479.363) rotate(90)">
+      <g id="Group_372-2" data-name="Group 372" transform="translate(0 0) rotate(45)">
+        <path id="Path_490-3" data-name="Path 490" class="cls-1" d="M38.214,0H0" transform="translate(0 0)"/>
+      </g>
+      <g id="Group_468-2" data-name="Group 468" transform="translate(0 0) rotate(45)">
+        <path id="Path_490-4" data-name="Path 490" class="cls-1" d="M38.214,0H0" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

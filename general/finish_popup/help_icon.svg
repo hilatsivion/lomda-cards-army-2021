@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58.823" height="59.823" viewBox="0 0 58.823 59.823">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #2be8f7;
+      }
+
+      .cls-1 {
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="help_icon" transform="translate(3085.58 1091.451)">
+    <path id="Path_503" data-name="Path 503" class="cls-1" d="M6.911,0A6.911,6.911,0,1,1,0,6.911,6.911,6.911,0,0,1,6.911,0Z" transform="translate(-3082.58 -1047.451)"/>
+    <path id="Path_506" data-name="Path 506" class="cls-1" d="M6.911,0A6.911,6.911,0,1,1,0,6.911,6.911,6.911,0,0,1,6.911,0Z" transform="translate(-3082.58 -1089.451)"/>
+    <path id="Path_504" data-name="Path 504" class="cls-1" d="M6.911,0A6.911,6.911,0,1,1,0,6.911,6.911,6.911,0,0,1,6.911,0Z" transform="translate(-3042.58 -1047.451)"/>
+    <path id="Path_505" data-name="Path 505" class="cls-1" d="M6.911,0A6.911,6.911,0,1,1,0,6.911,6.911,6.911,0,0,1,6.911,0Z" transform="translate(-3042.58 -1089.451)"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-2" cx="25.911" cy="25.911" r="25.911" transform="translate(-3082.58 -1087.452)"/>
+    <path id="Path_501" data-name="Path 501" class="cls-3" d="M-3055.2-1040.04a20.032,20.032,0,0,1,20.032-20.032" transform="translate(-21.5 -21.5)"/>
+    <path id="Path_502" data-name="Path 502" class="cls-3" d="M-2941.88-966.784a20.032,20.032,0,0,1-20.032,20.032" transform="translate(-94.757 -94.756)"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" class="cls-4" cx="14.148" cy="14.148" r="14.148" transform="translate(-3070.817 -1075.689)"/>
+  </g>
+</svg>

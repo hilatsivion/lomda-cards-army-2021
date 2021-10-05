@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.26" height="41.26" viewBox="0 0 41.26 41.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2be8f7;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #414042;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="Group_430" data-name="Group 430" transform="translate(-540.686 -1005.877)">
+    <rect id="Rectangle_48" data-name="Rectangle 48" class="cls-1" width="41.26" height="41.26" rx="20.63" transform="translate(540.686 1005.877)"/>
+    <g id="Group_367" data-name="Group 367" transform="translate(552.26 1019.582)">
+      <g id="Group_365" data-name="Group 365" transform="translate(0 0)">
+        <path id="Path_474" data-name="Path 474" class="cls-2" d="M20.209,2,6.294,15.915,2,11.621" transform="translate(-2 -2)"/>
+      </g>
+    </g>
+  </g>
+</svg>
