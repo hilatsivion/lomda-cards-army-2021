@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="811.141" height="173.914" viewBox="0 0 811.141 173.914">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #708fa0;
+        stroke-width: 7px;
+      }
+
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_47" data-name="Group 47" transform="translate(-135.167 -75.4)">
+    <g id="Group_33" data-name="Group 33" transform="translate(-9.095 46.473)">
+      <line id="Line_76" data-name="Line 76" class="cls-1" x2="5.643" y2="22.544" transform="translate(194.744 60.459)"/>
+      <path id="Path_78" data-name="Path 78" class="cls-2" d="M235.412,81.92l1.336,5.337a6.952,6.952,0,0,1-5.057,8.433h0a6.954,6.954,0,0,1-8.434-5.057L221.921,85.3l-6.594-26.341" transform="translate(-35.129 0.658)"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-3" width="811.141" height="124.787" rx="25" transform="translate(144.262 78.055)"/>
+      <g id="Group_32" data-name="Group 32" transform="translate(165.549 32.462)">
+        <path id="Path_79" data-name="Path 79" class="cls-2" d="M211.938,90.009l-10.529-42.06a12.459,12.459,0,0,1,9.061-15.111h0A12.459,12.459,0,0,1,225.582,41.9l4.646,18.56" transform="translate(-201.033 -32.462)"/>
+        <path id="Path_80" data-name="Path 80" class="cls-2" d="M205.44,63.711l9.892,39.516a17.527,17.527,0,0,0,21.258,12.746h0a17.528,17.528,0,0,0,12.747-21.258L245.23,78.307" transform="translate(-200.924 -31.686)"/>
+      </g>
+    </g>
+  </g>
+</svg>
