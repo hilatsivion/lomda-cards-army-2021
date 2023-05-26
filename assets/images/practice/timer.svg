@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="227.317" height="69.46" viewBox="0 0 227.317 69.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #FCB328;
+      }
+
+      .cls-2 {
+        opacity: 0.306;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #1c3f55;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        fill: #414042;
+      }
+    </style>
+  </defs>
+  <g id="Group_359" data-name="Group 359" transform="translate(-379.686 -1015.877)">
+    <rect id="Rectangle_42" data-name="Rectangle 42" class="cls-1" width="227.317" height="69.46" rx="19" transform="translate(379.686 1015.877)"/>
+    <g id="Group_358" data-name="Group 358" transform="translate(-22)">
+      <g id="Group_356" data-name="Group 356" class="cls-2" transform="translate(468 1027)">
+        <g id="Group_357" data-name="Group 357" transform="translate(-40)">
+          <path id="Path_470" data-name="Path 470" class="cls-3" d="M38.271,27.757A18.385,18.385,0,1,1,19.885,9.372,18.386,18.386,0,0,1,38.271,27.757Z"/>
+          <path id="Path_471" data-name="Path 471" class="cls-3" d="M19.885,18.427v9.33l4.872,4.211"/>
+          <rect id="Rectangle_43" data-name="Rectangle 43" class="cls-4" width="1.156" height="3.887" transform="translate(19.307 4.474)"/>
+          <rect id="Rectangle_44" data-name="Rectangle 44" class="cls-3" width="1.156" height="3.887" transform="translate(19.307 4.474)"/>
+          <rect id="Rectangle_45" data-name="Rectangle 45" class="cls-4" width="5.985" height="2.024" transform="translate(16.893 1.5)"/>
+          <rect id="Rectangle_46" data-name="Rectangle 46" class="cls-3" width="5.985" height="2.024" transform="translate(16.893 1.5)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
